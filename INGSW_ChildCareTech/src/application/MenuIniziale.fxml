@@ -7,23 +7,27 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.MenuIniziale">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.MenuInizialeController">
   <children>
     <MenuBar layoutX="0.0" layoutY="0.0" prefWidth="600.0">
       <menus>
-        <Menu mnemonicParsing="false" text="File">
+        <Menu mnemonicParsing="false" text="Informazioni">
           <items>
-            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Fornitori" />
+            <MenuItem mnemonicParsing="false" text="Personale Interno" />
+            <MenuItem mnemonicParsing="false" onAction="#bambini" text="Bambini" />
           </items>
         </Menu>
-        <Menu mnemonicParsing="false" text="Edit">
+        <Menu mnemonicParsing="false" text="Mensa">
           <items>
-            <MenuItem mnemonicParsing="false" text="Delete" />
+            <MenuItem mnemonicParsing="false" text="Menù Base" />
+            <MenuItem mnemonicParsing="false" text="Menù Speciale" />
           </items>
         </Menu>
-        <Menu mnemonicParsing="false" text="Help">
+        <Menu mnemonicParsing="false" text="Gita">
           <items>
-            <MenuItem mnemonicParsing="false" text="About" />
+            <MenuItem mnemonicParsing="false" text="Gite disponibili" />
+            <MenuItem mnemonicParsing="false" text="Nuova Gita" />
           </items>
         </Menu>
       </menus>
