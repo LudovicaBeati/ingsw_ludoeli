@@ -6,4 +6,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.MenuInizialeController" />
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.MenuInizialeController"
+style="-fx-background-color: #7FFFD4">
+  <children>
+    <Button layoutX="14.0" layoutY="338.0" mnemonicParsing="false" onAction="#ReturnToHomePage" text="Return to Home Page" style="-fx-cursor: hand"/>
+  </children>
+</AnchorPane>

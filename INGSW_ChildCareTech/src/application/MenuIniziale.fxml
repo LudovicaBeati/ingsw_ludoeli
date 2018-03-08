@@ -13,8 +13,8 @@
       <menus>
         <Menu mnemonicParsing="false" text="Informazioni">
           <items>
-            <MenuItem mnemonicParsing="false" text="Fornitori" />
-            <MenuItem mnemonicParsing="false" text="Personale Interno" />
+            <MenuItem mnemonicParsing="false" onAction="#fornitore" text="Fornitori" />
+            <MenuItem mnemonicParsing="false" onAction="#PersonaleInterno" text="Personale Interno" />
             <MenuItem mnemonicParsing="false" onAction="#bambini" text="Bambini" />
           </items>
         </Menu>
